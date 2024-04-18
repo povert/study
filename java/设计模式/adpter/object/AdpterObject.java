@@ -1,4 +1,4 @@
-package adpter.object;
+
 
 //uml ͼ
 /*

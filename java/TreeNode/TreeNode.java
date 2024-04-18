@@ -1,4 +1,4 @@
-package TreeNode;
+
 //二叉树实体节点类
 public class TreeNode {
 	private int data; //节点

@@ -3,7 +3,6 @@ li = list()
 path = list()
 
 #待优化
-
 def migong(mg,p,e):  #mg 迷宫列表，p 起点坐标 e 终点坐标
     li.append(p)
     x_max = len(mg)

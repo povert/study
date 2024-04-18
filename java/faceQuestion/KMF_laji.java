@@ -1,4 +1,4 @@
-package faceQuestion;
+
 
 public class KMF_laji {
 	public static void main(String[] args) {

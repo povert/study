@@ -1,4 +1,4 @@
-package composite;
+
 import java.util.*;
 /*
  * 组合模式（CompositeDemo Pattern）将对象组合成树形结构以表示“部分-整体”的层次结构。

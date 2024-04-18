@@ -1,4 +1,4 @@
-package Iterator;
+
 import java.util.Iterator;
 /*
  Iterator包含3个方法: hasNext ,  next , remove。

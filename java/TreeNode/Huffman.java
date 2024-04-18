@@ -1,4 +1,3 @@
-package TreeNode;
 
 import java.util.List;
 import java.util.Map;
@@ -55,7 +54,6 @@ public class Huffman {
 		String b = bianma(map,"23788");
 		System.out.println("编码："+b);
 		System.out.println("解码："+jiema(map, b));
-		
 	}
 	
 	//给定一个数组作为权重建立哈夫曼树

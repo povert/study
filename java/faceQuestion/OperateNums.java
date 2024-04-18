@@ -1,4 +1,4 @@
-package faceQuestion;
+
 import java.util.Scanner;
 import java.util.Collections;
 import java.util.ArrayList;
@@ -36,23 +36,23 @@ public class OperateNums{
         }
     }
     //其他方法，这就是给规律题
-    	public static void guilv() {
-    		Scanner in = new Scanner(System.in);
-    		//while (in.hasNextInt()) { //in.hasNextInt 判断输入是否为一个Int类型的数
-    			int n = in.nextInt();
-    			int[] nums = new int[n];
-    			for (int i = 0; i < n; i++) {
-    				nums[i] = in.nextInt();
-    				}
-    			for (int i = n - 1; i >= 0; i -= 2) {
-    				// 前一半从最后一个数开始以2为步长递减 
-    				System.out.print(nums[i] + " ");
-    				}
-    			for (int i = n % 2; i < n - 2; i += 2) {
-    				// 后一半根据整数个数的奇偶，分别从第二个或第一个数开始以2为步长递增
-    				System.out.print(nums[i] + " ");
-    				}
-    			System.out.print(nums[n - 2]);  // 最后一个数
-    	//}
-    }
+	public static void guilv() {
+		Scanner in = new Scanner(System.in);
+		//while (in.hasNextInt()) { //in.hasNextInt 判断输入是否为一个Int类型的数
+			int n = in.nextInt();
+			int[] nums = new int[n];
+			for (int i = 0; i < n; i++) {
+				nums[i] = in.nextInt();
+				}
+			for (int i = n - 1; i >= 0; i -= 2) {
+				// 前一半从最后一个数开始以2为步长递减 
+				System.out.print(nums[i] + " ");
+				}
+			for (int i = n % 2; i < n - 2; i += 2) {
+				// 后一半根据整数个数的奇偶，分别从第二个或第一个数开始以2为步长递增
+				System.out.print(nums[i] + " ");
+				}
+			System.out.print(nums[n - 2]);  // 最后一个数
+	//}
+	}
 }
